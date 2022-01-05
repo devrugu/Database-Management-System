@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #24252A;
+}
+
+header {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 100px 3%;
+}
+div.inputs {
+    color: #edf0f1;
+    font-family: "Montserrat", sans-serif;
+    display:grid;
+    grid-template-columns: max-content max-content;
+    grid-gap:5px;
+}
+div.inputs label {
+    color: #edf0f1;
+    font-family: "Montserrat", sans-serif;
+    text-align:right; 
+}
+div.inputs label:after {
+    color: #edf0f1;
+    font-family: "Montserrat", sans-serif;
+    content: ":";
+}
+div.form{
+    color: #edf0f1;
+    display: block;
+    text-align: center;
+}
+form
+{
+    color: #edf0f1;
+    display: inline-block;
+    text-align: center;
+}
+
+button{
+    padding: 9px 25px;
+    color: #edf0f1;
+    background-color: rgba(0, 136, 169, 1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: rgba(0, 136, 169, 0.8);
+}
+
+.nav__links {
+    list-style: none;
+}
+
+.nav__links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav__links li a:hover {
+    color: #0088a9;
+}
+
+li, a {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+.table1{
+    font-family: "Montserrat", sans-serif;
+    color: #edf0f1;
+    background-color: rgba(0, 136, 169, 1);
+    border-spacing: 0;
+    text-align: center;   
+    position: absolute;
+    top: 5%;
+    left: 26%;
+}
+.table2{
+    font-family: "Montserrat", sans-serif;
+    color: #edf0f1;
+    background-color: rgba(0, 136, 169, 1);
+    border-spacing: 0;
+    text-align: center;   
+    position: absolute;
+    top: 5%;
+    left: 85%;
+}
+.anasayfa{
+    position: absolute;
+    top: 2%;
+    left: 5%;
+
+}
+.tekgeri{
+    position: absolute;
+    top: 2%;
+    left: 18%;
+}
+.ciftgeri{
+    position: absolute;
+    top: 2%;
+    left: 3%;
+
+}
+.anasayfa{
+    position: absolute;
+    top: 2%;
+    left: 6%;
+}
+.geri{
+    position: absolute;
+    top: 2%;
+    left: 20%;
+} 
+.fas{
+    font-size: 35px;
+    color: #edf0f1;
+}
+.sil{
+    font-size: 12px;
+    font-family: "Montserrat", sans-serif;
+    grid-template-columns: max-content max-content;
+    position: fixed;
+    top: 10%;
+    left: 7.5%;
+}
+.hastalik{
+    font-size: 12px;
+    font-family: "Montserrat", sans-serif;
+    grid-template-columns: max-content max-content;
+    position: fixed;
+    top: 23%;
+    left: 6%;
+}
+.ilac{
+    font-size: 12px;
+    font-family: "Montserrat", sans-serif;
+    grid-template-columns: max-content max-content;
+    position: fixed;
+    top: 46%;
+    left: 0%;
+}
+.semptom{
+    font-size: 12px;
+    font-family: "Montserrat", sans-serif;
+    grid-template-columns: max-content max-content;
+    position: fixed;
+    top: 65%;
+    left: 1%;
+}
+.hastaliksil{
+    position: fixed;
+    top: 17%;
+    left: 10.5%;
+}
+.update1{
+    position: fixed;
+    top: 39%;
+    left: 9.5%;
+}
+.update2{
+    position: fixed;
+    top: 58%;
+    left: 9%;
+}
+.update3{
+    position: fixed;
+    top: 75%;
+    left: 10.5%;
+}
+p.error {
+    color: red;
+    position: fixed;
+    top: 80%;
+    left: 8%;
+    font-size: 20px;
+}
+
+p.success {
+    color: green;
+    position: fixed;
+    top: 80%;
+    left: 8%;
+    font-size: 20px;
+}

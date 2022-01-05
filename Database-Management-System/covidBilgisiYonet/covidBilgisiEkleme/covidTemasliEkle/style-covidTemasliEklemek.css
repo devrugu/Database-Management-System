@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #24252A;
+}
+header {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+h2{
+    color: #edf0f1;
+    font-family: "Montserrat", sans-serif;
+    position: absolute;
+    top: 17%;
+    left: 43%;
+}
+
+div.inputs {
+    color: #edf0f1;
+    font-family: "Montserrat", sans-serif;
+    display:grid;
+    grid-template-columns: max-content max-content;
+    grid-gap:5px;
+}
+div.inputs label {
+    color: #edf0f1;
+    font-family: "Montserrat", sans-serif;
+    text-align:right; 
+}
+div.inputs label:after {
+    color: #edf0f1;
+    font-family: "Montserrat", sans-serif;
+    content: ":";
+}
+
+div.form
+{
+    color: #edf0f1;
+    display: block;
+    position: absolute;
+    top: 37%;
+    left: 36%;
+}
+form
+{
+    color: #edf0f1;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 24px;
+}
+
+
+form button {
+    padding: 9px 25px;
+    color: #edf0f1;
+    background-color: rgba(0, 136, 169, 1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover {
+    background-color: rgba(0, 136, 169, 0.8);
+}
+
+.nav__links {
+    list-style: none;
+}
+
+.nav__links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav__links li a:hover {
+    color: #0088a9;
+}
+
+li, a {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+p.error {
+    color: red;
+    position: absolute;
+    top: 24%;
+    left: 41%;
+    font-size: 24px;
+}
+
+p.success {
+    color: green;
+    position: absolute;
+    top: 24%;
+    left: 41%;
+    font-size: 24px;
+}
+.fas{
+    font-size: 35px;
+    color: #edf0f1;
+}
+.tekgeri{
+    position: absolute;
+    top: 2%;
+    left: 18%;
+}
+.ciftgeri{
+    position: absolute;
+    top: 2%;
+    left: 3%;
+
+}
+.anasayfa{
+    position: absolute;
+    top: 2%;
+    left: 6%;
+}
+.geri{
+    position: absolute;
+    top: 2%;
+    left: 20%;
+} 
+

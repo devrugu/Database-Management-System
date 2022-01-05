@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #24252A;
+}
+h1{
+    color: #edf0f1;
+    font-family: "Montserrat", sans-serif;
+    font-size: 30px;
+    position: absolute;
+    top: 4%;
+    left: 42%;
+}
+li, a, button {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: first baseline;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+.logo {
+    cursor: pointer;
+}
+
+.nav__links {
+    list-style: none;
+}
+
+.nav__links li {
+    display: inline-block;
+    padding: 0px 20px;
+    margin-left: 100px;
+}
+
+.nav__links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav__links li a:hover {
+    color: #0088a9;
+}
+
+button {
+    padding: 9px 25px;
+    background-color: rgba(0, 136, 169, 1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover {
+    background-color: rgba(0, 136, 169, 0.8);
+}
+.sqlsorgulama{
+    position: absolute;
+    top: 14%;
+    left: 15%;
+}
+.calisanlariyonet{
+    position: absolute;
+    top: 14%;
+    left: 41%;
+}
+.hastalikbilgisi{
+    position: absolute;
+    top: 14%;
+    left: 56%;
+}
+.covidbilgisi{
+    position: absolute;
+    top: 14%;
+    left: 73%;
+}
+.projesorgulari{
+    position: absolute;
+    top: 14%;
+    left: 28%;
+}
+.ktulogosu{
+    position: absolute;
+    top: 2%;
+    left: 2%;
+}
