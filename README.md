@@ -1,5 +1,5 @@
 # Healthcare-Management-System
-Database Management System using php and mysql
+Database Management System using php and mysq
 
 ----------------------------------------------------------------ER DIAGRAM of Database------------------------------------------------------------------------------
 
